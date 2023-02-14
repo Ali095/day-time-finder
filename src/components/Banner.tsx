@@ -1,6 +1,4 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col"
-import Spinner from 'react-bootstrap/Spinner';
+import { Spinner, Row, Col } from 'react-bootstrap';
 
 
 const Loader = () => (
@@ -9,7 +7,7 @@ const Loader = () => (
     </Spinner>
 )
 
-const Banner = (props: { sunrise: string; sunset: string; loading?: boolean }) => {
+export const Banner = (props: { sunrise: string; sunset: string; loading?: boolean }) => {
     const { sunrise, sunset, loading } = props;
 
     return (
