@@ -1,0 +1,15 @@
+{
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"extends": [
+		"react-app",
+		"react-app/jest",
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
+	],
+	"rules": {
+		"no-unused-expressions": "off",
+		"no-explicit-any": "off"
+	}
+}
